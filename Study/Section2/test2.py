@@ -5,7 +5,7 @@ from cv2 import imshow
 pytesseract.pytesseract.tesseract_cmd = r"C:\Users\ANG7CA\AppData\Local\Programs\Tesseract-OCR\tesseract.exe"
 
 # reading the image with "imgread"
-img = cv2.imread("./images/img3.png")
+img = cv2.imread("./Section2/images/img3.png")
 
 rgb = cv2.cvtColor(img,cv2.COLOR_BGR2RGB)
 imshow('image',rgb)
